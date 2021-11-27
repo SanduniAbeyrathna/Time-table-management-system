@@ -47,7 +47,7 @@ import net.proteanit.sql.DbUtils;
 import javax.swing.JCheckBox;
 
 /**
- * @author Chamika Abesekara
+ * @author Hiruni
  *
  */
 public class ManageWorkingDays {

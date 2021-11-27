@@ -371,13 +371,7 @@ public class AddLocations {
 		JButton btnNewButton_15 = new JButton("Save");
 		btnNewButton_15.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
-	
-					
-					
-					
-					
-				
+		
 				try {
 					
 					
@@ -429,16 +423,7 @@ public class AddLocations {
 							  RoomName.setText(null);
 							  RoomType.setSelectedItem(null);
 							  Capacity.setText(null);
-		                    
-		                   
-		                
-							
-							
-							
-							
-							
-							
-						
+		             	
 					}
 					}
 					
@@ -460,10 +445,7 @@ public class AddLocations {
                 }
 			
 					}
-	              
-				
-				
-					
+	              	
 			
 		});
 		btnNewButton_15.setFont(new Font("Times New Roman", Font.BOLD, 20));

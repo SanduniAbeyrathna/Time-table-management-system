@@ -43,7 +43,7 @@ import javax.swing.JCheckBox;
 
 
 /**
- * @author Chamika Abesekara
+ * @author Perera
  *
  */
 public class AddWorkingDays {
@@ -555,11 +555,6 @@ public class AddWorkingDays {
 		btnNewButton_15.setBounds(594, 426, 157, 41);
 		panel_3.add(btnNewButton_15);
 		
-		
-		
-		
-
 				
-
 	}
 }

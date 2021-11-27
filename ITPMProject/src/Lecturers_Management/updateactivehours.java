@@ -322,11 +322,7 @@ public class updateactivehours {
 					String Sto= spinner_1_1_2.getValue().toString();
 					String Sfrom= spinner_1_1_1_1.getValue().toString();
 				
-				
-				
-				
-				
-				
+			
 				String monday="-";
 				String tuesday="-";
 				String wednesday="-";
@@ -358,11 +354,7 @@ public class updateactivehours {
 				}
 				if(chckbxSunday.isSelected()) {
 					sunday="Sunday";
-				}
-					
-					
-					
-					
+				}		
 				
 				try {
 					
@@ -374,9 +366,6 @@ public class updateactivehours {
 						
 						
 							JOptionPane.showMessageDialog(null, "Please fill the form and press generate button to generate the rank");
-						
-						 
-							
 						
 					
 					}else if(!(chckbxTuesday.isSelected()||chckbxNewCheckBox.isSelected()||chckbxWednesday.isSelected()||chckbxThursday.isSelected()||chckbxFriday.isSelected()||chckbxSaturday.isSelected())){
@@ -422,32 +411,7 @@ public class updateactivehours {
 		             
 		                    PreparedStatement pst=con.prepareStatement(query);
 		                     pst.executeUpdate();
-		                    
-		                 
-		                    
-		                    
-		        
-		                    
-		                    
-		                    
-		             
-		                  
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                 
-							
-		                    
-		                    
-		                    
+		                                     
 		                    JOptionPane.showMessageDialog(null,
 		                            "Active days and hours Updated");
 		                    
@@ -467,13 +431,7 @@ public class updateactivehours {
 							spinner_1_3_1.setValue(null);
 							spinner_1_1_2.setValue(null);
 							spinner_1_1_1_1.setValue(null);
-		                
-							
-							
-							
-							
-							
-							
+		              	
 						
 					}
 					}
@@ -735,9 +693,6 @@ public class updateactivehours {
 						chckbxSunday.setSelected(false);
 					}
 					
-				
-	      	
-			
 				
 			}
 		});

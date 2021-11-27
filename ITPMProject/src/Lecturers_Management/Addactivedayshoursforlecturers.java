@@ -470,32 +470,7 @@ public class Addactivedayshoursforlecturers {
 		             
 		                    PreparedStatement pst=con.prepareStatement(query);
 		                     pst.executeUpdate();
-		                    
-		                 
-		                    
-		                    
-		        
-		                    
-		                    
-		                    
-		             
-		                  
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                    
-		                 
-							
-		                    
-		                    
-		                    
+		                                  
 		                    JOptionPane.showMessageDialog(null,
 		                            "Active days and hours added");
 		                    
@@ -515,14 +490,7 @@ public class Addactivedayshoursforlecturers {
 							spinner_1_3_1.setValue(null);
 							spinner_1_1_2.setValue(null);
 							spinner_1_1_1_1.setValue(null);
-		                
-							
-							
-							
-							
-							
-							
-						
+		             	
 					}
 					}
 					
